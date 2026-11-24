@@ -1,0 +1,33 @@
+{
+  "name": "sync_in_admin",
+  "version": "2.6.0",
+  "description": "Sync-in Admin and Faculty Command Suite — University Events Attendance",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "npx serve -s . -l 3000",
+    "test": "node --check server.js",
+    "docker:build": "docker build -t sync-in .",
+    "docker:run": "docker run -p 3000:3000 sync-in"
+  },
+  "keywords": [
+    "campus-attendance",
+    "rfid",
+    "qr-code",
+    "totp",
+    "university",
+    "attendance-tracking",
+    "cybersecurity",
+    "zero-trust"
+  ],
+  "author": "Google DeepMind / Senior Product Engineering Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunkedoreo-cloud/sync_in_admin.git"
+  }
+}
